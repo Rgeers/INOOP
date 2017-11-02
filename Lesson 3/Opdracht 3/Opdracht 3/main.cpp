@@ -11,14 +11,24 @@ void geefMandjeDoor(Broodmandje* mandje) {
 
 int main() {
 	Broodmandje* mandje = new Broodmandje();
-	mandje->toon();
-
 	mandje->voegToe(" frikandelbroodje");
 	mandje->toon();
 
-	geefMandjeDoor(mandje);
+	Broodmandje mandje1 = Broodmandje();
+	mandje1.voegToe(" bammetje met kaas");
+	mandje1.toon();
+
+	Broodmandje mandje2 = mandje1;
 	mandje->toon();
 
+	mandje1.voegToe(" croissant");
+	mandje1.toon();
+
+
+
+	geefMandjeDoor(mandje);
+	mandje->toon();
+	delete mandje;
 	std::cin.get();
 	return 0;
 }
