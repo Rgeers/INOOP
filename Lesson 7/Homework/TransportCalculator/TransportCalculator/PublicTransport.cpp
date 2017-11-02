@@ -14,7 +14,7 @@ PublicTransport::~PublicTransport()
 }
 
 float PublicTransport::ticketPrice() {
-	float moneyEarned = amountOfSeats() * ticketPrice();
+	const float moneyEarned = amountOfSeats() * ticketPrice();
 	return moneyEarned;
 }
 

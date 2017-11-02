@@ -8,7 +8,8 @@ public:
 	~HighSpeedTrain();
 
 	float ticketPrice() override;
-	float surtax();
+	int amountOfSeats() override;
+	float surtax = 1.10f;
 
 };
 
