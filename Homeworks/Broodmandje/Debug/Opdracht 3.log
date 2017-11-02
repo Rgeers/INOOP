@@ -1,0 +1,3 @@
+﻿  Broodmandje.cpp
+d:\github\inoop\lesson 3\opdracht 3\opdracht 3\broodmandje.cpp(23): error C2561: 'Broodmandje::operator =': function must return a value
+  d:\github\inoop\lesson 3\opdracht 3\opdracht 3\broodmandje.cpp(17): note: see declaration of 'Broodmandje::operator ='
